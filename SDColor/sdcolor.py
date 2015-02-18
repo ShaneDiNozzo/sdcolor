@@ -34,7 +34,7 @@ class MainWindowClass(QtWidgets.QMainWindow, form_class):
         QApplication.setStyle(QStyleFactory.create('Fusion'))
 
         # Set icon
-        self.iconres = QtGui.QPixmap(':/Icon/emblem_money.ico')
+        self.iconres = QtGui.QPixmap(':/Icon/pencils.ico')
         self.icon = QtGui.QIcon(self.iconres)
 
         # Set button click events
